@@ -1,0 +1,40 @@
+body {
+    width: 90%;
+    background-color: lightgray;
+    margin: auto;
+}
+#wrapper {
+    background-color: white;
+}
+
+h1, #navbar, #feature, #footer {
+    margin: 1% 0%;
+    padding: .5%;
+    background-color: #efefef;
+}
+h1, p, ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: .5%;
+}
+#content {
+    overflow: auto;
+}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    background-color: #efefef;
+}
+.column2 {
+    margin: 0% 3%;
+}
+.column3 {
+    margin: 0%;
+}
+#navbar, #feature, .column1, .column2, .column3 {
+    height: 10em;
+}
+
